@@ -1,0 +1,6 @@
+@CryptoCurrencyQuotesApi_HostAddress = http://localhost:5148
+
+GET {{CryptoCurrencyQuotesApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
