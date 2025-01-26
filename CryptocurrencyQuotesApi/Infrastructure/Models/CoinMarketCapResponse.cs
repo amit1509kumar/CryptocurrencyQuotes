@@ -7,7 +7,7 @@
 
     public class Currency
     {
-        public decimal Price { get; set; }
+        public decimal? Price { get; set; }
     }
 
     public class Crypto

@@ -24,7 +24,7 @@ namespace CryptoCurrencyQuotesApi.Infrastructure.ExternalApis.CoinMarketCap
                 return (false, 0);
             }
 
-            return (true, response.Data[cryptoSymbol].Quote.EUR.Price);
+            return (true, response.Data[cryptoSymbol].Quote.EUR.Price ?? 0);
         }
     }
 }
